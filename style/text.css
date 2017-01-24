@@ -1,0 +1,169 @@
+
+h1{
+    font-family: "Halo", Verdana;
+    src: url(fonts/Halo.ttf);
+    color: #0080FF;
+    font-size: 75pt;
+    background: url(img1/steel.jpg);
+    text-align: center;
+    text-shadow: 0px 2px red;
+    border-style:solid;
+    border-top-right-radius:25px;
+    border-top-left-radius:25px;
+    border-color: #331900;
+    padding:18 px;
+    margin:0 auto;
+  }
+h2{
+  font-family: "Halo", Verdana;
+  src: url(fonts/Halo.ttf);
+  color: #990000;
+  text-shadow: 0px 2px red;
+  font-size: 45pt;
+  text-align: center;
+  background-color: yellow;
+  border-style:solid;
+  border-bottom-right-radius:25px;
+  border-bottom-left-radius:25px;
+  border-color: #331900;
+  padding:18 px;
+  margin:0 auto;
+}
+h3{
+    font-family: "OrbitronBold.ttf", Verdana, sans-serif;
+    src: url(fonts/OrbitronBold.ttf);
+    font-size: 20pt;
+    color: #ffccff;
+    margin: 0;
+}
+body{
+    background: url(img1/backprova.jpg);
+    background-repeat: no-repeat;
+    height:100%;
+    width: 80%;
+    margin: 0 auto;
+    border-bottom-right-radius: 15px;
+  }
+
+p{
+    color: orange;
+    font-family: 'Merriweather', serif;
+    font-size: 12pt;
+    text-align:justify;
+  }
+.container{
+        background: url(img1/back.jpg);
+        height:1650px;
+        width: 100%;
+        border-color: orange;
+        border-style: inset;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+  }
+.img{
+      background-repeat: no-repeat;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      position: relative;
+      left: 17.5%;
+      height:25%;
+      width: 65%;
+  }
+  ul#menu {
+    float: left;
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/* MENU ONE*/
+.menu {
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+.menu li  {
+  font-size: 15px;
+  position:relative;
+  margin: 0;
+  padding: 0;
+}
+.menu li a {
+    font-family: "OrbitronBold.ttf", Verdana, sans-serif;
+    src: url(fonts/OrbitronBold.ttf);
+  	background-image: url(img1/menu.jpg);
+    display: block;
+    width:300px;
+    height: 60px;
+    border-top:20px;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-align: center;
+    list-style: none;
+    color: orange;
+  }
+/*MENU2*/
+.menu2 ul {
+  	padding: 0;
+  	margin: 0;
+  }
+.menu2 li {
+  	position:relative;
+  	float: left;
+    left:3%;
+    right: 2%;
+  	width:310px;
+  	text-align: center;
+  	list-style: none;
+    border-color:#006666;
+  }
+.menu2 li a {
+  	background-image: url(img1/menu.jpg);
+  	color: orange;
+  	padding: 15px 20px;
+  	text-decoration: none;
+  	display: list-item;
+  }
+.menu2 li a:hover {
+    color: lightblue;
+  	text-shadow: 0px 0px 15px orange;
+    left: 2%;
+  }
+.menu2 ul ul {
+  	position:relative;
+  	visibility: hidden;
+  }
+.menu2 ul li:hover ul {
+  	visibility: visible;
+  }
+.menu2 ul ul:hover {
+  	box-shadow: 0px 15px 30px orange;
+  }
+.menu2 ul ul li a {
+  	background-color: #3A3A3A;
+  }
+.menu2 ul ul li a:hover {
+  	background-color: #3F3F3F;
+  }
+.box1{
+    position: relative;
+    border-style:solid;
+    border-bottom-right-radius:25px;
+    border-top-right-radius:25px;
+    border-color:#006666;
+    padding:18px 15px;
+    width:60%;
+    height:8%;
+    font-size:16pt;
+      }
+.footer{
+        margin: 0 auto;
+      	font:7pt;
+      	padding:10px;
+      	text-align:center;
+      	background-color:black;
+      	color:white;
+      }

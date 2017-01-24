@@ -1,0 +1,137 @@
+
+h1{
+    font-family: "Halo";
+    src: url(fonts/Halo.ttf);
+    color: orange;
+    font-size: 70pt;
+    background: url(img1/back.jpg);
+    text-align: center;
+    text-shadow: 0px 2px red;
+    border-top-right-radius:25px;
+    border-top-left-radius:25px;
+    border-bottom:0.1px;
+    border-color: orange;
+    padding:35px;
+    margin:0 auto;
+     background: linear-gradient(to left bottom,#293f50, #648880);
+  }
+h2{
+  font-family: "OrbitronBold.ttf", Verdana, sans-serif;
+  src: url(fonts/OrbitronBold.ttf);
+  color: red;
+  text-shadow: 0px 2px purple;
+  font-size: 55pt;
+  text-align: center;
+ background: linear-gradient(to left bottom, #648880, #293f50);
+  border-color: #331900;
+  padding:35px;
+  margin:0 auto;
+  border-bottom-right-radius:25px;
+  border-bottom-left-radius:25px;
+
+}
+body{
+  background: url(img1/steel.jpg);
+  height:100%;
+  width: 80%;
+  margin: 0 auto
+}
+p{
+    font-family: "OrbitronBold.ttf", Verdana, sans-serif;
+    src: url(fonts/OrbitronBold.ttf);
+    font-weight: bold;
+    font-size: 16pt;
+    text-align:justify;
+    padding: 5px;
+    margin-left: 3px;
+  }
+.container{
+  background: url(img1/form.png), url(img1/backprova.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+  height: 1150px;
+  top: 10%;
+  width: 100%;
+  border-color: orange;
+  border-style: inset;
+  border-style:solid;
+  border-top-right-radius:0.1px;
+  border-top-left-radius:0.1px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: orange;
+}
+.field{
+    border: 3px solid lightblue;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding:15px;
+    background-image: url(img1/menu.jpg);
+    margin-bottom:20px;
+    font-size: 15pt;
+    width:30%;
+    color:orange;
+  }
+.field:focus{
+    background-image: url(img1/backform.jpg);
+    color:orange;
+    }
+.submit-button{
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: 3px solid lightblue;
+  transition-duration: 1.8s;
+  color:orange;
+  padding:20px 35px;
+  font-size:15pt;
+  font-weight:bold;
+  text-decoration: none;
+    }
+.submit-button:hover{
+    background-color: #black;
+    color: red;
+    font-size:15pt;
+    background:black;
+    }
+.reset-button{
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: 3px solid lightblue;
+  transition-duration: 1.8s;
+  color:orange;
+  padding:20px 43px;
+  font-size:15pt;
+  font-weight:bold;
+  text-decoration: none;
+    }
+.reset-button:hover{
+    background-color: #black;
+    color: red;
+    font-size:15pt;
+    background:black;
+    }
+    .back{
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+      position: relative;
+      border-style: solid;
+      background-image: url(img1/menu.jpg);
+      border-color: lightblue;
+      padding: 15px;
+      left: 40%;
+      color: orange;
+      font-family: "OrbitronBold.ttf", Verdana, sans-serif;
+      src: url(fonts/OrbitronBold.ttf);
+      font-weight: bolder;
+      font-size: 25pt;
+      text-decoration: none;
+    }
